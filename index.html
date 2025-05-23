@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>940smiley - Projects Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="profile-section">
+                <img src="https://github.com/940smiley.png" alt="940smiley" class="avatar">
+                <div class="profile-info">
+                    <h1>940smiley</h1>
+                    <p class="bio">Python enthusiast focusing on ML and CV • Always learning</p>
+                    <div class="social-links">
+                        <a href="https://github.com/940smiley" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Featured Projects Section -->
+            <section class="featured-section">
+                <h2 class="section-title">
+                    <i class="fas fa-star"></i>
+                    Featured Projects
+                </h2>
+                <div class="projects-grid" id="featuredProjects">
+                    <!-- Featured projects will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Recent Projects Section -->
+            <section class="recent-section">
+                <h2 class="section-title">
+                    <i class="fas fa-clock"></i>
+                    Recently Updated
+                </h2>
+                <div class="projects-grid" id="recentProjects">
+                    <!-- Recent projects will be loaded here -->
+                </div>
+            </section>
+
+            <!-- All Projects Section -->
+            <section class="all-projects-section">
+                <h2 class="section-title">
+                    <i class="fas fa-folder"></i>
+                    All Projects
+                </h2>
+                <div class="projects-grid" id="allProjects">
+                    <!-- All projects will be loaded here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 940smiley. Built with GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p>Loading projects...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
